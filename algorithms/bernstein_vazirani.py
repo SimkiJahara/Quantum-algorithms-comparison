@@ -79,10 +79,10 @@ class BernsteinVazirani:
         result = sim.run(tqc, shots=shots).result()
         counts = result.get_counts()
 
-        # Most frequent bitstring is the recovered secret
-        recovered = max(counts, key=counts.get)
-        # Qiskit returns qubits in reversed order → flip
-        recovered_str = recovered[::-1]
+        # Most frequent bitstring is the recovered secret.
+        # No reversal needed: the oracle already uses enumerate(reversed(secret)),
+        # so Qiskit's output string (MSB = qubit n-1) maps directly to the secret.
+        recovered_str = max(counts, key=counts.get)
 
         return {
             "algorithm"   : "Bernstein-Vazirani",

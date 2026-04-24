@@ -10,65 +10,65 @@
     "classical_complexity": "O(2^(n-1) + 1)",
     "quantum_complexity": "O(1)",
     "speedup": "Exponential",
-    "runtime_s": 0.032
+    "runtime_s": 0.018
   },
   "Bernstein-Vazirani": {
     "algorithm": "Bernstein-Vazirani",
     "secret": "1100",
-    "recovered": "0011",
-    "correct": false,
+    "recovered": "1100",
+    "correct": true,
     "num_qubits": 5,
     "depth": 6,
     "gate_count": 20,
     "classical_complexity": "O(n)",
     "quantum_complexity": "O(1)",
     "speedup": "Linear",
-    "runtime_s": 0.011
+    "runtime_s": 0.017
   },
   "Grover's Search": {
     "algorithm": "Grover's Search",
-    "target": "1001",
-    "found": "1001",
+    "target": "0001",
+    "found": "0001",
     "correct": true,
-    "prob_target": 0.9639,
+    "prob_target": 0.9541,
     "iterations": 3,
     "num_qubits": 4,
-    "depth": 32,
-    "gate_count": 90,
+    "depth": 38,
+    "gate_count": 96,
     "classical_complexity": "O(N)",
     "quantum_complexity": "O(\u221aN)",
     "speedup": "Quadratic",
-    "runtime_s": 0.017
+    "runtime_s": 0.013
   },
   "QFT": {
     "algorithm": "QFT",
-    "input_state": "1100",
+    "input_state": "1011",
     "inverse": false,
     "probabilities": {
-      "0000": 0.060302734375,
-      "0001": 0.055908203125,
-      "0010": 0.0673828125,
-      "0011": 0.0712890625,
-      "0100": 0.064697265625,
-      "0101": 0.061767578125,
-      "0110": 0.065673828125,
-      "0111": 0.06103515625,
-      "1000": 0.054931640625,
-      "1001": 0.064453125,
-      "1010": 0.065185546875,
-      "1011": 0.0634765625,
-      "1100": 0.05859375,
-      "1101": 0.06103515625,
-      "1110": 0.063720703125,
-      "1111": 0.060546875
+      "0000": 0.06689453125,
+      "0001": 0.069091796875,
+      "0010": 0.06787109375,
+      "0011": 0.06689453125,
+      "0100": 0.060791015625,
+      "0101": 0.060791015625,
+      "0110": 0.058349609375,
+      "0111": 0.061279296875,
+      "1000": 0.0703125,
+      "1001": 0.0654296875,
+      "1010": 0.056884765625,
+      "1011": 0.056640625,
+      "1100": 0.05712890625,
+      "1101": 0.064697265625,
+      "1110": 0.060791015625,
+      "1111": 0.05615234375
     },
     "num_qubits": 4,
     "depth": 10,
-    "gate_count": 20,
+    "gate_count": 21,
     "classical_complexity": "O(n \u00b7 2^n)",
     "quantum_complexity": "O(n\u00b2)",
     "speedup": "Exponential",
-    "runtime_s": 0.01
+    "runtime_s": 0.016
   },
   "Shor's Factoring": {
     "algorithm": "Shor's Factoring",
@@ -86,7 +86,7 @@
     "classical_complexity": "O(exp((logN)^(1/3)(loglogN)^(2/3)))",
     "quantum_complexity": "O((log N)\u00b3)",
     "speedup": "Super-polynomial",
-    "runtime_s": 0.454
+    "runtime_s": 0.296
   },
   "QAOA": {
     "algorithm": "QAOA",
@@ -121,14 +121,14 @@
     "best_bitstring": "1010",
     "best_cut": 4.0,
     "approx_ratio": 0.8,
-    "exp_cost": 3.1523,
+    "exp_cost": 3.7051,
     "gamma": [
-      1.6626,
-      2.6294
+      2.0393,
+      1.0441
     ],
     "beta": [
-      0.9873,
-      0.7783
+      2.5908,
+      1.929
     ],
     "num_qubits": 4,
     "depth": 14,
@@ -136,6 +136,6 @@
     "classical_complexity": "O(1.1383^n) exact / O(n\u00b2) approx",
     "quantum_complexity": "O(p \u00b7 |E|)",
     "speedup": "Heuristic (problem-dependent)",
-    "runtime_s": 0.434
+    "runtime_s": 0.322
   }
 }

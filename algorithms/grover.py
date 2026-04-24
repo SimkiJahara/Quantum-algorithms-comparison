@@ -102,8 +102,11 @@ class Grover:
         result = sim.run(tqc, shots=shots).result()
         counts = result.get_counts()
 
-        found = max(counts, key=counts.get)[::-1]
-        prob_target = counts.get(self.target[::-1], 0) / shots
+        # No reversal needed: the phase oracle uses enumerate(reversed(self.target)),
+        # so Qiskit's output string (MSB = qubit n-1) already equals the target.
+        # Bug was invisible for palindromic targets (e.g. "1001"[::-1] == "1001").
+        found = max(counts, key=counts.get)
+        prob_target = counts.get(self.target, 0) / shots
 
         return {
             "algorithm"    : "Grover's Search",

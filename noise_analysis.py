@@ -215,14 +215,14 @@ ALGORITHMS = [
         "name"   : "Bernstein-Vazirani",
         "algo"   : BernsteinVazirani(secret="1100"),
         "correct": lambda counts, shots: (
-            max(counts, key=counts.get)[::-1] == "1100"
+            max(counts, key=counts.get) == "1100"
         ),
     },
     {
         "name"   : "Grover's Search",
         "algo"   : Grover(n=4, target="1010"),
         "correct": lambda counts, shots: (
-            max(counts, key=counts.get)[::-1] == "1010"
+            max(counts, key=counts.get) == "1010"
         ),
     },
     {

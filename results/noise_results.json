@@ -13,40 +13,40 @@
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.001,
-        "tvd": 0.02,
-        "fidelity": 0.98,
+        "tvd": 0.0249,
+        "fidelity": 0.9751,
         "success": true
       },
       {
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.005,
-        "tvd": 0.0884,
-        "fidelity": 0.9116,
-        "success": false
+        "tvd": 0.0967,
+        "fidelity": 0.9033,
+        "success": true
       },
       {
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.01,
-        "tvd": 0.1836,
-        "fidelity": 0.8164,
+        "tvd": 0.1753,
+        "fidelity": 0.8247,
         "success": false
       },
       {
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.02,
-        "tvd": 0.3145,
-        "fidelity": 0.6855,
+        "tvd": 0.3062,
+        "fidelity": 0.6938,
         "success": false
       },
       {
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.05,
-        "tvd": 0.6157,
-        "fidelity": 0.3843,
+        "tvd": 0.6064,
+        "fidelity": 0.3936,
         "success": false
       }
     ],
@@ -55,16 +55,16 @@
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "thermal_T1_us",
         "noise_level": 500,
-        "tvd": 0.0029,
-        "fidelity": 0.9971,
+        "tvd": 0.0063,
+        "fidelity": 0.9937,
         "success": true
       },
       {
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "thermal_T1_us",
         "noise_level": 200,
-        "tvd": 0.0161,
-        "fidelity": 0.9839,
+        "tvd": 0.0122,
+        "fidelity": 0.9878,
         "success": true
       },
       {
@@ -79,24 +79,24 @@
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "thermal_T1_us",
         "noise_level": 50,
-        "tvd": 0.0557,
-        "fidelity": 0.9443,
+        "tvd": 0.0479,
+        "fidelity": 0.9521,
         "success": true
       },
       {
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "thermal_T1_us",
         "noise_level": 20,
-        "tvd": 0.1196,
-        "fidelity": 0.8804,
+        "tvd": 0.1113,
+        "fidelity": 0.8887,
         "success": true
       },
       {
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "thermal_T1_us",
         "noise_level": 10,
-        "tvd": 0.2383,
-        "fidelity": 0.7617,
+        "tvd": 0.2363,
+        "fidelity": 0.7637,
         "success": true
       }
     ],
@@ -113,40 +113,40 @@
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "readout_p",
         "noise_level": 0.01,
-        "tvd": 0.0366,
-        "fidelity": 0.9634,
+        "tvd": 0.0386,
+        "fidelity": 0.9614,
         "success": true
       },
       {
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "readout_p",
         "noise_level": 0.02,
-        "tvd": 0.0684,
-        "fidelity": 0.9316,
+        "tvd": 0.0747,
+        "fidelity": 0.9253,
         "success": true
       },
       {
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "readout_p",
         "noise_level": 0.05,
-        "tvd": 0.1851,
-        "fidelity": 0.8149,
+        "tvd": 0.1807,
+        "fidelity": 0.8193,
         "success": true
       },
       {
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "readout_p",
         "noise_level": 0.1,
-        "tvd": 0.3516,
-        "fidelity": 0.6484,
+        "tvd": 0.3579,
+        "fidelity": 0.6421,
         "success": true
       },
       {
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "readout_p",
         "noise_level": 0.2,
-        "tvd": 0.5986,
-        "fidelity": 0.4014,
+        "tvd": 0.5669,
+        "fidelity": 0.4331,
         "success": true
       }
     ],
@@ -163,40 +163,40 @@
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "combined_scale",
         "noise_level": 0.25,
-        "tvd": 0.042,
-        "fidelity": 0.958,
+        "tvd": 0.0391,
+        "fidelity": 0.9609,
         "success": true
       },
       {
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "combined_scale",
         "noise_level": 0.5,
-        "tvd": 0.0776,
-        "fidelity": 0.9224,
+        "tvd": 0.0874,
+        "fidelity": 0.9126,
         "success": true
       },
       {
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "combined_scale",
         "noise_level": 1.0,
-        "tvd": 0.167,
-        "fidelity": 0.833,
+        "tvd": 0.1538,
+        "fidelity": 0.8462,
         "success": true
       },
       {
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "combined_scale",
         "noise_level": 2.0,
-        "tvd": 0.3037,
-        "fidelity": 0.6963,
+        "tvd": 0.2944,
+        "fidelity": 0.7056,
         "success": false
       },
       {
         "algorithm": "Deutsch-Jozsa",
         "noise_type": "combined_scale",
         "noise_level": 4.0,
-        "tvd": 0.5015,
-        "fidelity": 0.4985,
+        "tvd": 0.4819,
+        "fidelity": 0.5181,
         "success": false
       }
     ]
@@ -209,47 +209,47 @@
         "noise_level": 0.0,
         "tvd": 0.0,
         "fidelity": 1.0,
-        "success": false
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.001,
-        "tvd": 0.0083,
-        "fidelity": 0.9917,
-        "success": false
+        "tvd": 0.0088,
+        "fidelity": 0.9912,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.005,
-        "tvd": 0.0557,
-        "fidelity": 0.9443,
-        "success": false
+        "tvd": 0.0547,
+        "fidelity": 0.9453,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.01,
-        "tvd": 0.0967,
-        "fidelity": 0.9033,
-        "success": false
+        "tvd": 0.1138,
+        "fidelity": 0.8862,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.02,
-        "tvd": 0.1826,
-        "fidelity": 0.8174,
-        "success": false
+        "tvd": 0.1938,
+        "fidelity": 0.8062,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.05,
-        "tvd": 0.4189,
-        "fidelity": 0.5811,
-        "success": false
+        "tvd": 0.416,
+        "fidelity": 0.584,
+        "success": true
       }
     ],
     "thermal": [
@@ -257,49 +257,49 @@
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "thermal_T1_us",
         "noise_level": 500,
-        "tvd": 0.001,
-        "fidelity": 0.999,
-        "success": false
+        "tvd": 0.0029,
+        "fidelity": 0.9971,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "thermal_T1_us",
         "noise_level": 200,
-        "tvd": 0.0078,
-        "fidelity": 0.9922,
-        "success": false
+        "tvd": 0.0073,
+        "fidelity": 0.9927,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "thermal_T1_us",
         "noise_level": 100,
-        "tvd": 0.0132,
-        "fidelity": 0.9868,
-        "success": false
+        "tvd": 0.0161,
+        "fidelity": 0.9839,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "thermal_T1_us",
         "noise_level": 50,
-        "tvd": 0.0254,
-        "fidelity": 0.9746,
-        "success": false
+        "tvd": 0.0186,
+        "fidelity": 0.9814,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "thermal_T1_us",
         "noise_level": 20,
-        "tvd": 0.0581,
-        "fidelity": 0.9419,
-        "success": false
+        "tvd": 0.0591,
+        "fidelity": 0.9409,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "thermal_T1_us",
         "noise_level": 10,
-        "tvd": 0.1123,
-        "fidelity": 0.8877,
-        "success": false
+        "tvd": 0.1138,
+        "fidelity": 0.8862,
+        "success": true
       }
     ],
     "readout": [
@@ -309,47 +309,47 @@
         "noise_level": 0.0,
         "tvd": 0.0,
         "fidelity": 1.0,
-        "success": false
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "readout_p",
         "noise_level": 0.01,
-        "tvd": 0.0386,
-        "fidelity": 0.9614,
-        "success": false
+        "tvd": 0.0405,
+        "fidelity": 0.9595,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "readout_p",
         "noise_level": 0.02,
-        "tvd": 0.0884,
-        "fidelity": 0.9116,
-        "success": false
+        "tvd": 0.0723,
+        "fidelity": 0.9277,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "readout_p",
         "noise_level": 0.05,
-        "tvd": 0.1821,
-        "fidelity": 0.8179,
-        "success": false
+        "tvd": 0.1938,
+        "fidelity": 0.8062,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "readout_p",
         "noise_level": 0.1,
-        "tvd": 0.3394,
-        "fidelity": 0.6606,
-        "success": false
+        "tvd": 0.3418,
+        "fidelity": 0.6582,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "readout_p",
         "noise_level": 0.2,
-        "tvd": 0.5986,
-        "fidelity": 0.4014,
-        "success": false
+        "tvd": 0.585,
+        "fidelity": 0.415,
+        "success": true
       }
     ],
     "combined": [
@@ -359,47 +359,47 @@
         "noise_level": 0.0,
         "tvd": 0.0,
         "fidelity": 1.0,
-        "success": false
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "combined_scale",
         "noise_level": 0.25,
-        "tvd": 0.0303,
-        "fidelity": 0.9697,
-        "success": false
+        "tvd": 0.0347,
+        "fidelity": 0.9653,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "combined_scale",
         "noise_level": 0.5,
-        "tvd": 0.0571,
-        "fidelity": 0.9429,
-        "success": false
+        "tvd": 0.0591,
+        "fidelity": 0.9409,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "combined_scale",
         "noise_level": 1.0,
-        "tvd": 0.1167,
-        "fidelity": 0.8833,
-        "success": false
+        "tvd": 0.1289,
+        "fidelity": 0.8711,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "combined_scale",
         "noise_level": 2.0,
-        "tvd": 0.2378,
-        "fidelity": 0.7622,
-        "success": false
+        "tvd": 0.228,
+        "fidelity": 0.772,
+        "success": true
       },
       {
         "algorithm": "Bernstein-Vazirani",
         "noise_type": "combined_scale",
         "noise_level": 4.0,
-        "tvd": 0.3887,
-        "fidelity": 0.6113,
-        "success": false
+        "tvd": 0.4307,
+        "fidelity": 0.5693,
+        "success": true
       }
     ]
   },
@@ -411,47 +411,47 @@
         "noise_level": 0.0,
         "tvd": 0.01,
         "fidelity": 0.99,
-        "success": false
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.001,
-        "tvd": 0.0342,
-        "fidelity": 0.9658,
-        "success": false
+        "tvd": 0.0403,
+        "fidelity": 0.9597,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.005,
-        "tvd": 0.1458,
-        "fidelity": 0.8542,
-        "success": false
+        "tvd": 0.1426,
+        "fidelity": 0.8574,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.01,
-        "tvd": 0.238,
-        "fidelity": 0.762,
-        "success": false
+        "tvd": 0.2456,
+        "fidelity": 0.7544,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.02,
-        "tvd": 0.4324,
-        "fidelity": 0.5676,
-        "success": false
+        "tvd": 0.4292,
+        "fidelity": 0.5708,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.05,
-        "tvd": 0.7278,
-        "fidelity": 0.2722,
-        "success": false
+        "tvd": 0.7241,
+        "fidelity": 0.2759,
+        "success": true
       }
     ],
     "thermal": [
@@ -459,49 +459,49 @@
         "algorithm": "Grover's Search",
         "noise_type": "thermal_T1_us",
         "noise_level": 500,
-        "tvd": 0.0107,
-        "fidelity": 0.9893,
-        "success": false
+        "tvd": 0.0103,
+        "fidelity": 0.9897,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "thermal_T1_us",
         "noise_level": 200,
-        "tvd": 0.0115,
-        "fidelity": 0.9885,
-        "success": false
+        "tvd": 0.0107,
+        "fidelity": 0.9893,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "thermal_T1_us",
         "noise_level": 100,
-        "tvd": 0.0117,
-        "fidelity": 0.9883,
-        "success": false
+        "tvd": 0.0085,
+        "fidelity": 0.9915,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "thermal_T1_us",
         "noise_level": 50,
-        "tvd": 0.0107,
-        "fidelity": 0.9893,
-        "success": false
+        "tvd": 0.0212,
+        "fidelity": 0.9788,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "thermal_T1_us",
         "noise_level": 20,
-        "tvd": 0.0212,
-        "fidelity": 0.9788,
-        "success": false
+        "tvd": 0.0291,
+        "fidelity": 0.9709,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "thermal_T1_us",
         "noise_level": 10,
-        "tvd": 0.041,
-        "fidelity": 0.959,
-        "success": false
+        "tvd": 0.0432,
+        "fidelity": 0.9568,
+        "success": true
       }
     ],
     "readout": [
@@ -509,49 +509,49 @@
         "algorithm": "Grover's Search",
         "noise_type": "readout_p",
         "noise_level": 0.0,
-        "tvd": 0.0081,
-        "fidelity": 0.9919,
-        "success": false
+        "tvd": 0.0078,
+        "fidelity": 0.9922,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "readout_p",
         "noise_level": 0.01,
-        "tvd": 0.042,
-        "fidelity": 0.958,
-        "success": false
+        "tvd": 0.0432,
+        "fidelity": 0.9568,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "readout_p",
         "noise_level": 0.02,
-        "tvd": 0.084,
-        "fidelity": 0.916,
-        "success": false
+        "tvd": 0.0728,
+        "fidelity": 0.9272,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "readout_p",
         "noise_level": 0.05,
-        "tvd": 0.1748,
-        "fidelity": 0.8252,
-        "success": false
+        "tvd": 0.1736,
+        "fidelity": 0.8264,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "readout_p",
         "noise_level": 0.1,
-        "tvd": 0.3418,
-        "fidelity": 0.6582,
-        "success": false
+        "tvd": 0.3303,
+        "fidelity": 0.6697,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "readout_p",
         "noise_level": 0.2,
-        "tvd": 0.5513,
-        "fidelity": 0.4487,
-        "success": false
+        "tvd": 0.5618,
+        "fidelity": 0.4382,
+        "success": true
       }
     ],
     "combined": [
@@ -559,49 +559,49 @@
         "algorithm": "Grover's Search",
         "noise_type": "combined_scale",
         "noise_level": 0.0,
-        "tvd": 0.0156,
-        "fidelity": 0.9844,
-        "success": false
+        "tvd": 0.0107,
+        "fidelity": 0.9893,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "combined_scale",
         "noise_level": 0.25,
-        "tvd": 0.0339,
-        "fidelity": 0.9661,
-        "success": false
+        "tvd": 0.0388,
+        "fidelity": 0.9612,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "combined_scale",
         "noise_level": 0.5,
-        "tvd": 0.0571,
-        "fidelity": 0.9429,
-        "success": false
+        "tvd": 0.0503,
+        "fidelity": 0.9497,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "combined_scale",
         "noise_level": 1.0,
-        "tvd": 0.0918,
-        "fidelity": 0.9082,
-        "success": false
+        "tvd": 0.0989,
+        "fidelity": 0.9011,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "combined_scale",
         "noise_level": 2.0,
-        "tvd": 0.1882,
-        "fidelity": 0.8118,
-        "success": false
+        "tvd": 0.1978,
+        "fidelity": 0.8022,
+        "success": true
       },
       {
         "algorithm": "Grover's Search",
         "noise_type": "combined_scale",
         "noise_level": 4.0,
-        "tvd": 0.3352,
-        "fidelity": 0.6648,
-        "success": false
+        "tvd": 0.3472,
+        "fidelity": 0.6528,
+        "success": true
       }
     ]
   },
@@ -611,48 +611,48 @@
         "algorithm": "QFT",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.0,
-        "tvd": 0.0288,
-        "fidelity": 0.9712,
+        "tvd": 0.0479,
+        "fidelity": 0.9521,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.001,
-        "tvd": 0.0405,
-        "fidelity": 0.9595,
+        "tvd": 0.043,
+        "fidelity": 0.957,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.005,
-        "tvd": 0.0381,
-        "fidelity": 0.9619,
+        "tvd": 0.0552,
+        "fidelity": 0.9448,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.01,
-        "tvd": 0.0344,
-        "fidelity": 0.9656,
+        "tvd": 0.0505,
+        "fidelity": 0.9495,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.02,
-        "tvd": 0.0403,
-        "fidelity": 0.9597,
+        "tvd": 0.0339,
+        "fidelity": 0.9661,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "depolarizing_p1",
         "noise_level": 0.05,
-        "tvd": 0.0339,
-        "fidelity": 0.9661,
+        "tvd": 0.0369,
+        "fidelity": 0.9631,
         "success": null
       }
     ],
@@ -661,48 +661,48 @@
         "algorithm": "QFT",
         "noise_type": "thermal_T1_us",
         "noise_level": 500,
-        "tvd": 0.0518,
-        "fidelity": 0.9482,
+        "tvd": 0.043,
+        "fidelity": 0.957,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "thermal_T1_us",
         "noise_level": 200,
-        "tvd": 0.0532,
-        "fidelity": 0.9468,
+        "tvd": 0.0422,
+        "fidelity": 0.9578,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "thermal_T1_us",
         "noise_level": 100,
-        "tvd": 0.0361,
-        "fidelity": 0.9639,
+        "tvd": 0.0457,
+        "fidelity": 0.9543,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "thermal_T1_us",
         "noise_level": 50,
-        "tvd": 0.041,
-        "fidelity": 0.959,
+        "tvd": 0.0505,
+        "fidelity": 0.9495,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "thermal_T1_us",
         "noise_level": 20,
-        "tvd": 0.0884,
-        "fidelity": 0.9116,
+        "tvd": 0.0623,
+        "fidelity": 0.9377,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "thermal_T1_us",
         "noise_level": 10,
-        "tvd": 0.1128,
-        "fidelity": 0.8872,
+        "tvd": 0.1174,
+        "fidelity": 0.8826,
         "success": null
       }
     ],
@@ -711,48 +711,48 @@
         "algorithm": "QFT",
         "noise_type": "readout_p",
         "noise_level": 0.0,
-        "tvd": 0.0432,
-        "fidelity": 0.9568,
+        "tvd": 0.0496,
+        "fidelity": 0.9504,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "readout_p",
         "noise_level": 0.01,
-        "tvd": 0.0591,
-        "fidelity": 0.9409,
+        "tvd": 0.0413,
+        "fidelity": 0.9587,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "readout_p",
         "noise_level": 0.02,
-        "tvd": 0.05,
-        "fidelity": 0.95,
+        "tvd": 0.0337,
+        "fidelity": 0.9663,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "readout_p",
         "noise_level": 0.05,
-        "tvd": 0.0613,
-        "fidelity": 0.9387,
+        "tvd": 0.0476,
+        "fidelity": 0.9524,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "readout_p",
         "noise_level": 0.1,
-        "tvd": 0.0518,
-        "fidelity": 0.9482,
+        "tvd": 0.0374,
+        "fidelity": 0.9626,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "readout_p",
         "noise_level": 0.2,
-        "tvd": 0.0425,
-        "fidelity": 0.9575,
+        "tvd": 0.052,
+        "fidelity": 0.948,
         "success": null
       }
     ],
@@ -761,48 +761,48 @@
         "algorithm": "QFT",
         "noise_type": "combined_scale",
         "noise_level": 0.0,
-        "tvd": 0.0437,
-        "fidelity": 0.9563,
+        "tvd": 0.0359,
+        "fidelity": 0.9641,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "combined_scale",
         "noise_level": 0.25,
-        "tvd": 0.0403,
-        "fidelity": 0.9597,
+        "tvd": 0.0432,
+        "fidelity": 0.9568,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "combined_scale",
         "noise_level": 0.5,
-        "tvd": 0.0427,
-        "fidelity": 0.9573,
+        "tvd": 0.0408,
+        "fidelity": 0.9592,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "combined_scale",
         "noise_level": 1.0,
-        "tvd": 0.0315,
-        "fidelity": 0.9685,
+        "tvd": 0.0417,
+        "fidelity": 0.9583,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "combined_scale",
         "noise_level": 2.0,
-        "tvd": 0.0544,
-        "fidelity": 0.9456,
+        "tvd": 0.0554,
+        "fidelity": 0.9446,
         "success": null
       },
       {
         "algorithm": "QFT",
         "noise_type": "combined_scale",
         "noise_level": 4.0,
-        "tvd": 0.0906,
-        "fidelity": 0.9094,
+        "tvd": 0.0801,
+        "fidelity": 0.9199,
         "success": null
       }
     ]
