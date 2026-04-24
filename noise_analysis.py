@@ -221,14 +221,24 @@ ALGORITHMS = [
     {
         "name"   : "Grover's Search",
         "algo"   : Grover(n=4, target="1010"),
+        # Rigorous check: target probability must exceed 4× random baseline (1/16=0.0625).
+        # Using argmax is misleading at high noise — the target can "win" as plurality
+        # with only ~8% probability, which is near-random and not a true success.
         "correct": lambda counts, shots: (
-            max(counts, key=counts.get) == "1010"
+            counts.get("1010", 0) / shots >= 0.25
         ),
     },
     {
         "name"   : "QFT",
         "algo"   : QFT(n=4),
-        "correct": None,   # QFT has no single "correct" answer; use TVD only
+        # For a computational basis input |x>, the QFT output is a uniform
+        # superposition across all 2^n states. A healthy QFT should produce
+        # no dominant state: flag failure if any state exceeds 4× the expected
+        # uniform probability (1/16 = 0.0625), i.e. > 0.25.
+        # Heavy noise destroys uniformity, causing states to bunch — detectable here.
+        "correct": lambda counts, shots: (
+            max(counts.values()) / shots < 4 * (1 / 16)
+        ),
     },
 ]
 
@@ -267,6 +277,10 @@ def sweep_noise(algo_entry: dict, noise_fn, levels: list, level_label: str) -> l
         fid = fidelity_from_tvd(tvd)
         success = correct_fn(noisy_counts, SHOTS) if correct_fn else None
 
+        # Most probable output state and its probability — useful for diagnosis
+        top_state = max(noisy_counts, key=noisy_counts.get)
+        top_prob  = round(noisy_counts[top_state] / SHOTS, 4)
+
         rows.append({
             "algorithm"     : algo_entry["name"],
             "noise_type"    : level_label,
@@ -274,6 +288,8 @@ def sweep_noise(algo_entry: dict, noise_fn, levels: list, level_label: str) -> l
             "tvd"           : round(tvd, 4),
             "fidelity"      : round(fid, 4),
             "success"       : success,
+            "top_state"     : top_state,
+            "top_prob"      : top_prob,
         })
 
     return rows
