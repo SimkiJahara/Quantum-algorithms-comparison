@@ -2,7 +2,7 @@
 
 A comprehensive implementation and benchmarking suite for **six foundational quantum algorithms**, comparing circuit complexity, gate requirements, qubit usage, noise resilience, and classical vs quantum speedup — built with **Qiskit** and fully reproducible.
 
-> **Portfolio project demonstrating quantum computing fundamentals from first principles.**
+
 
 ---
 
